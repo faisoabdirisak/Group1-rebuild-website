@@ -11,7 +11,7 @@
 - i as the owner,would like the website to have a contact page.
 - i as the owner,would like to see the donation part in the website.
 
-# Should Haves.
+# Should Haves
 
 - i as the owner, would like the website to have a place to write the success
   stories.
@@ -23,5 +23,7 @@
 # Could Haves
 
 - i as the owner, would like the website to have some pictures.
-- i as the owner,would like the users to see our location map on the website.s
+- i as the owner,would like the users to see our location map on the websitenpm
+  run lint:ls
+
 -
