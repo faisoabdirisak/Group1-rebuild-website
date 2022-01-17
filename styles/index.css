@@ -1,1 +1,318 @@
 @import url("./something.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 60px;
+  margin: 10px 2px 10px 70px;
+}
+nav {
+  margin: 10px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-right: 40px;
+}
+nav ul li {
+  margin: 15px;
+  font-family: Work Sans, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: rgb(0, 0, 0);
+}
+nav ul li:hover {
+  border-bottom: 4px solid rgb(28, 34, 148);
+}
+
+.sec {
+  height: 350px;
+  width: 100%;
+
+  background-image: url("../images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: scroll;
+}
+.con {
+  padding: 80px;
+}
+.con p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 76.8px;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans, sans-serif;
+}
+span {
+  color: rgb(28, 34, 148);
+  font-weight: 300px;
+}
+
+/* our program */
+.our {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  line-height: 25.6px;
+}
+.pro {
+  width: 400px;
+  text-align: justify;
+  padding: 10px;
+  margin-top: 5px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(45, 48, 55);
+  font-family: Space Mono, monospace;
+}
+
+.pic {
+  width: 50%;
+  margin-top: 5px;
+}
+.pic img {
+  height: 400px;
+  width: 600px;
+}
+/* impact */
+.imp {
+  background-color: white;
+  box-shadow: 2px 2px 20px rgb(28, 34, 148);
+  z-index: 1000;
+  height: 500px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  font-family: Space Mono, monospace;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.6px;
+  color: rgb(45, 48, 55);
+}
+.pact {
+  text-align: center;
+  line-height: 20px;
+  width: 250px;
+}
+.pact p {
+  text-align: center;
+}
+.di {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 20px;
+}
+.di div {
+  background-color: rgb(28, 34, 148);
+  margin: 10px;
+  height: 200px;
+  color: white;
+  padding: 5px;
+}
+/* our core values */
+.core {
+  background-color: rgb(236, 246, 247);
+  height: 1000px;
+  font-family: Space Mono, monospace;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.6px;
+  color: rgb(45, 48, 55);
+}
+.core i {
+  font-size: 50px;
+  color: rgb(28, 34, 148);
+}
+.core p {
+  text-align: justify;
+  width: 300px;
+}
+.core h3 {
+  color: rgb(28, 34, 148);
+}
+.core h2 {
+  padding: 20px;
+  text-align: justify;
+  color: rgb(28, 34, 148);
+}
+
+/* success stories */
+.sto {
+  background-color: whitesmoke;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.sto h2 {
+  padding: 20px;
+  color: rgb(28, 34, 148);
+  font-family: Space Mono, monospace;
+}
+.sto h4,
+h6 {
+  color: rgb(28, 34, 148);
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.2px;
+  color: rgb(28, 34, 148);
+}
+
+.suc {
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 2px 2px 5px rgb(118, 184, 243);
+  position: relative;
+  left: 300px;
+  width: 60%;
+  height: 500px;
+}
+.suc img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+.suc h4,
+h6,
+p {
+  text-align: center;
+}
+.suc p {
+  width: 600px;
+  position: relative;
+  left: 105px;
+  line-height: 30px;
+  height: 200px;
+  font-size: 1.5rem;
+  font-family: Space Mono, monospace;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.6px;
+  color: rgb(45, 48, 55);
+}
+/* partners */
+.part {
+  background-color: rgb(245, 243, 240);
+  width: 100%;
+  height: 900px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.part h2 {
+  color: rgb(28, 34, 148);
+}
+
+.part img {
+  width: 100%;
+  height: 800px;
+  background-color: FFFFFF;
+}
+
+/* support */
+.fi {
+  margin-bottom: 30px;
+  font-family: Space Mono, monospace;
+  font-size: 16px;
+
+  font-weight: 300;
+
+  line-height: 25.6px;
+
+  color: rgb(45, 48, 55);
+}
+.sup {
+  padding: 10px;
+}
+.sup p,
+h3 {
+  text-align: left;
+  padding-left: 10px;
+}
+.sup h5 {
+  font-family: Work Sans, sans-serif;
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  line-height: 33.6px;
+  color: rgb(28, 34, 148);
+}
+.tab {
+  padding-left: 280px;
+}
+.pa {
+  text-align: left;
+}
+
+/* contact */
+.tact {
+  background-color: rgb(42, 16, 192);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Space Mono, monospace;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.6px;
+  color: rgb(255, 255, 255);
+}
+.tact button {
+  background-color: white;
+  color: black;
+}
+.tact h2,
+p {
+  text-align: left;
+  padding: 30px;
+}
+.map {
+}
+.map div {
+  width: 100%;
+  height: 100%;
+}
+footer {
+  text-align: center;
+  height: 350px;
+  padding-top: 100px;
+}
+footer h2 {
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33.6px;
+  color: rgb(28, 34, 148);
+}
+address {
+  display: block;
+  font-family: Space Mono, monospace;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.6px;
+  color: rgb(45, 48, 55);
+}
+
+footer i {
+  font-size: 30px;
+  padding: 10px;
+  color: rgb(74, 80, 187);
+}
