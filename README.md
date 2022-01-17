@@ -1,52 +1,82 @@
-# (project name)
+### Group1-rebuild-website
 
-<!-- describe your project -->
+## By Faiso Abdirisak
 
-## Getting Started
+## Live link to this project's GitHub Pages.
 
-<!-- a guide to using this repository -->
+### [View Live Site](https://faisoabdirisak.github.io//)
 
-1. `git clone git@github.com:HackYourFutureBelgium/template-markdown.git`
-2. `cd template-markdown`
-3. `npm install`
+## Table of Content
 
-## Code Quality Checks
+- [Description](#description)
+- [Installation Requirement](#Installation/Requirements)
+- [Technology Used](#technology-used)
+- [Licence](#licence)
+- [Authors Info](#author-Info)
 
-- `npm run format`: Makes sure all the code in this repository is well-formatted
-  (looks good).
-- `npm run lint:ls`: Checks to make sure all folder and file names match the
-  repository conventions.
-- `npm run lint:md`: Will lint all of the Markdown files in this repository.
-- `npm run lint:css`: Will lint all of the CSS files in this repository.
-- `npm run validate:html`: Validates all HTML files in your project.
-- `npm run spell-check`: Goes through all the files in this repository looking
-  for words it doesn't recognize. Just because it says something is a mistake
-  doesn't mean it is! It doesn't know every word in the world. You can add new
-  correct words to the [./.cspell.json](./.cspell.json) file so they won't cause
-  an error.
-- `npm run accessibility -- ./path/to/file.html`: Runs an accessibility analysis
-  on all HTML files in the given path and writes the report to
-  `/accessibility_report`
+## Description
 
-## Continuous Integration (CI)
+Its designing landing website
 
-When you open a PR to `main`/`master` in your repository, GitHub will
-automatically do a linting check on the code in this repository, you can see
-this in the[./.github/workflows/lint.yml](./.github/workflows/lint.yml) file.
+## Installation/Requirements
 
-If the linting fails, you will not be able to merge the PR. You can double check
-that your code will pass before pushing by running `npm run lint:md` locally.
+- Either a computer,phone,tablet or an Ipad
 
-## Repo Setup
+- An access to the Internet
 
-- Give each member _write_ access to the repo (if it's a group project)
-- Turn on GitHub Pages and put a link to your website in the repo's description
-- Turn on GitHub Actions
-- in the _Branches_ section of your repo's settings make sure:
-  - The repository
-    [requires a review](https://github.blog/2018-03-23-require-multiple-reviewers/)
-    before pull requests can be merged.
-  - The `master`/`main` branch must "_Require status checks to pass before
-    merging_"
-  - The `master`/`main` branch must "_Require require branches to be up to date
-    before merging_"
+### Installation Process
+
+The project is setup in the visual studio code by creating an HTML file, a
+related CSS file and bootstrap .
+
+## Known Bugs
+
+None.
+
+## Technology Used
+
+- HTML - which was used to build the structure of the pages.
+
+- CSS - which was used to style the pages including the left aside navigation
+  bar.
+
+- Bootstrap - to make it visually appealing.
+
+## Licence
+
+MIT License [MIT](https://choosealicense.com/licenses/mit/)
+
+Copyright (c) [2022] [Faiso Abdirisak]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## author-Info
+
+# contacts
+
+You can reach me through
+
+email: faisoabdirisak@gmail.com
+
+phone number: +254700293918
+
+©️ Faiso Abdirisak, Moringa school independent project.
+
+github [Github](https://github.com/faisoabdirisak)
+
+[Go Back to the top](#Pizza-Delivery)
