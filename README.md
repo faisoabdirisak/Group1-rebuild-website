@@ -4,7 +4,7 @@
 
 ## Live link to this project's GitHub Pages.
 
-### [View Live Site](https://faisoabdirisak.github.io//)
+### [View Live Site](https://faisoabdirisak.github.io/Group1-rebuild-website/)
 
 ## Table of Content
 
